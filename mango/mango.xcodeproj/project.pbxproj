@@ -35,11 +35,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		273B775E2151FE45002B6316 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				27464D662145B66D00CEAF91 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		273B775F2151FE68002B6316 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27464D622145B66D00CEAF91 /* AppDelegate.swift */,
+				27464D692145B67000CEAF91 /* Assets.xcassets */,
+				27464D6B2145B67000CEAF91 /* LaunchScreen.storyboard */,
+				27464D6E2145B67000CEAF91 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		27464D562145B66D00CEAF91 = {
 			isa = PBXGroup;
 			children = (
-				27464D612145B66D00CEAF91 /* mango */,
 				27464D602145B66D00CEAF91 /* Products */,
+				27464D612145B66D00CEAF91 /* mango */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				27464D782145B7AB00CEAF91 /* Model */,
-				27464D622145B66D00CEAF91 /* AppDelegate.swift */,
-				27464D662145B66D00CEAF91 /* Main.storyboard */,
-				27464D692145B67000CEAF91 /* Assets.xcassets */,
-				27464D6B2145B67000CEAF91 /* LaunchScreen.storyboard */,
-				27464D6E2145B67000CEAF91 /* Info.plist */,
+				273B775E2151FE45002B6316 /* UI */,
+				273B775F2151FE68002B6316 /* Resources */,
 			);
 			path = mango;
 			sourceTree = "<group>";
@@ -291,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J374AWHV27;
 				INFOPLIST_FILE = mango/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J374AWHV27;
 				INFOPLIST_FILE = mango/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
