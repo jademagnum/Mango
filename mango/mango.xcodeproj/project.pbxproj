@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		273B776121541672002B6316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273B776021541672002B6316 /* Assets.xcassets */; };
 		27464D632145B66D00CEAF91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27464D622145B66D00CEAF91 /* AppDelegate.swift */; };
 		27464D682145B66D00CEAF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27464D662145B66D00CEAF91 /* Main.storyboard */; };
-		27464D6A2145B67000CEAF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27464D692145B67000CEAF91 /* Assets.xcassets */; };
 		27464D6D2145B67000CEAF91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27464D6B2145B67000CEAF91 /* LaunchScreen.storyboard */; };
 		27464D772145B79E00CEAF91 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27464D762145B79E00CEAF91 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		273B776021541672002B6316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		27464D5F2145B66D00CEAF91 /* mango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27464D622145B66D00CEAF91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27464D672145B66D00CEAF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		27464D692145B67000CEAF91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27464D6C2145B67000CEAF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27464D6E2145B67000CEAF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27464D762145B79E00CEAF91 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				27464D622145B66D00CEAF91 /* AppDelegate.swift */,
-				27464D692145B67000CEAF91 /* Assets.xcassets */,
+				273B776021541672002B6316 /* Assets.xcassets */,
 				27464D6B2145B67000CEAF91 /* LaunchScreen.storyboard */,
 				27464D6E2145B67000CEAF91 /* Info.plist */,
 			);
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27464D6D2145B67000CEAF91 /* LaunchScreen.storyboard in Resources */,
-				27464D6A2145B67000CEAF91 /* Assets.xcassets in Resources */,
+				273B776121541672002B6316 /* Assets.xcassets in Resources */,
 				27464D682145B66D00CEAF91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J374AWHV27;
-				INFOPLIST_FILE = mango/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/mango/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -325,7 +325,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J374AWHV27;
-				INFOPLIST_FILE = mango/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/mango/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
