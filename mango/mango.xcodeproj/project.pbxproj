@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		273B776121541672002B6316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273B776021541672002B6316 /* Assets.xcassets */; };
 		27464D632145B66D00CEAF91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27464D622145B66D00CEAF91 /* AppDelegate.swift */; };
 		27464D682145B66D00CEAF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27464D662145B66D00CEAF91 /* Main.storyboard */; };
 		27464D6D2145B67000CEAF91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27464D6B2145B67000CEAF91 /* LaunchScreen.storyboard */; };
 		27464D772145B79E00CEAF91 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27464D762145B79E00CEAF91 /* User.swift */; };
+		27B42A282171460E000BC556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B42A272171460E000BC556 /* Assets.xcassets */; };
+		27B42A2C2171474E000BC556 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B42A2A2171474E000BC556 /* CalendarViewController.swift */; };
+		27B42A2D2171474E000BC556 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B42A2B2171474E000BC556 /* CustomCell.swift */; };
 		89FF3A554B3F8591204C2C90 /* Pods_mango.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1176725473974533B1FE182E /* Pods_mango.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1176725473974533B1FE182E /* Pods_mango.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mango.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		273B776021541672002B6316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		27464D5F2145B66D00CEAF91 /* mango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27464D622145B66D00CEAF91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27464D672145B66D00CEAF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27464D6C2145B67000CEAF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27464D6E2145B67000CEAF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27464D762145B79E00CEAF91 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		27B42A272171460E000BC556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27B42A2A2171474E000BC556 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = ../../../../mangoCalendar/mangoCalendar/CalendarViewController.swift; sourceTree = "<group>"; };
+		27B42A2B2171474E000BC556 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ../../../../mangoCalendar/mangoCalendar/CustomCell.swift; sourceTree = "<group>"; };
 		5F77179F4173A0DC3119CC01 /* Pods-mango.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mango.release.xcconfig"; path = "Pods/Target Support Files/Pods-mango/Pods-mango.release.xcconfig"; sourceTree = "<group>"; };
 		93D8C95F236574C03F80AFBE /* Pods-mango.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mango.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mango/Pods-mango.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				27464D622145B66D00CEAF91 /* AppDelegate.swift */,
-				273B776021541672002B6316 /* Assets.xcassets */,
+				27B42A272171460E000BC556 /* Assets.xcassets */,
 				27464D6B2145B67000CEAF91 /* LaunchScreen.storyboard */,
 				27464D6E2145B67000CEAF91 /* Info.plist */,
 			);
@@ -62,9 +66,9 @@
 		27464D562145B66D00CEAF91 = {
 			isa = PBXGroup;
 			children = (
-				27464D602145B66D00CEAF91 /* Products */,
 				27464D612145B66D00CEAF91 /* mango */,
 				7A8FEF51B70CDE4BFC18CA2A /* Pods */,
+				27464D602145B66D00CEAF91 /* Products */,
 				A7D05499FF33D832EBCEEB04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +86,7 @@
 			children = (
 				27464D782145B7AB00CEAF91 /* Model */,
 				273B775E2151FE45002B6316 /* UI */,
+				27B42A2921714738000BC556 /* Calendar */,
 				273B775F2151FE68002B6316 /* Resources */,
 			);
 			path = mango;
@@ -93,6 +98,15 @@
 				27464D762145B79E00CEAF91 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		27B42A2921714738000BC556 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				27B42A2A2171474E000BC556 /* CalendarViewController.swift */,
+				27B42A2B2171474E000BC556 /* CustomCell.swift */,
+			);
+			path = Calendar;
 			sourceTree = "<group>";
 		};
 		7A8FEF51B70CDE4BFC18CA2A /* Pods */ = {
@@ -146,6 +160,7 @@
 				TargetAttributes = {
 					27464D5E2145B66D00CEAF91 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -173,7 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27464D6D2145B67000CEAF91 /* LaunchScreen.storyboard in Resources */,
-				273B776121541672002B6316 /* Assets.xcassets in Resources */,
+				27B42A282171460E000BC556 /* Assets.xcassets in Resources */,
 				27464D682145B66D00CEAF91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,7 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B42A2C2171474E000BC556 /* CalendarViewController.swift in Sources */,
 				27464D772145B79E00CEAF91 /* User.swift in Sources */,
+				27B42A2D2171474E000BC556 /* CustomCell.swift in Sources */,
 				27464D632145B66D00CEAF91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,7 +405,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thecassettecompany.mango;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -408,7 +425,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thecassettecompany.mango;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
