@@ -12,9 +12,11 @@
 		27464D682145B66D00CEAF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27464D662145B66D00CEAF91 /* Main.storyboard */; };
 		27464D6D2145B67000CEAF91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27464D6B2145B67000CEAF91 /* LaunchScreen.storyboard */; };
 		27464D772145B79E00CEAF91 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27464D762145B79E00CEAF91 /* User.swift */; };
+		89FF3A554B3F8591204C2C90 /* Pods_mango.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1176725473974533B1FE182E /* Pods_mango.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1176725473974533B1FE182E /* Pods_mango.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mango.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		273B776021541672002B6316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		27464D5F2145B66D00CEAF91 /* mango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27464D622145B66D00CEAF91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		27464D6C2145B67000CEAF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27464D6E2145B67000CEAF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27464D762145B79E00CEAF91 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5F77179F4173A0DC3119CC01 /* Pods-mango.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mango.release.xcconfig"; path = "Pods/Target Support Files/Pods-mango/Pods-mango.release.xcconfig"; sourceTree = "<group>"; };
+		93D8C95F236574C03F80AFBE /* Pods-mango.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mango.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mango/Pods-mango.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89FF3A554B3F8591204C2C90 /* Pods_mango.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,8 @@
 			children = (
 				27464D602145B66D00CEAF91 /* Products */,
 				27464D612145B66D00CEAF91 /* mango */,
+				7A8FEF51B70CDE4BFC18CA2A /* Pods */,
+				A7D05499FF33D832EBCEEB04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +95,23 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		7A8FEF51B70CDE4BFC18CA2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93D8C95F236574C03F80AFBE /* Pods-mango.debug.xcconfig */,
+				5F77179F4173A0DC3119CC01 /* Pods-mango.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7D05499FF33D832EBCEEB04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1176725473974533B1FE182E /* Pods_mango.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27464D712145B67000CEAF91 /* Build configuration list for PBXNativeTarget "mango" */;
 			buildPhases = (
+				7FBFB00036BD443CD5015D0F /* [CP] Check Pods Manifest.lock */,
 				27464D5B2145B66D00CEAF91 /* Sources */,
 				27464D5C2145B66D00CEAF91 /* Frameworks */,
 				27464D5D2145B66D00CEAF91 /* Resources */,
+				3168D9B3314B41769589BB40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +179,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3168D9B3314B41769589BB40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mango/Pods-mango-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mango/Pods-mango-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FBFB00036BD443CD5015D0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mango-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27464D5B2145B66D00CEAF91 /* Sources */ = {
@@ -302,6 +375,7 @@
 		};
 		27464D722145B67000CEAF91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D8C95F236574C03F80AFBE /* Pods-mango.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -321,6 +395,7 @@
 		};
 		27464D732145B67000CEAF91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F77179F4173A0DC3119CC01 /* Pods-mango.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
